@@ -1,0 +1,17 @@
+C:\Users\Seb\Desktop\UANDES Extra\2020\Primer Semestre\POO\Entrega3\Proyecto-prueba\Proyecto-grupo-14form\bin\Debug\Proyecto-grupo-14form.exe.config
+C:\Users\Seb\Desktop\UANDES Extra\2020\Primer Semestre\POO\Entrega3\Proyecto-prueba\Proyecto-grupo-14form\bin\Debug\Proyecto-grupo-14form.exe
+C:\Users\Seb\Desktop\UANDES Extra\2020\Primer Semestre\POO\Entrega3\Proyecto-prueba\Proyecto-grupo-14form\bin\Debug\Proyecto-grupo-14form.pdb
+C:\Users\Seb\Desktop\UANDES Extra\2020\Primer Semestre\POO\Entrega3\Proyecto-prueba\Proyecto-grupo-14form\obj\Debug\Proyecto-grupo-14form.csprojAssemblyReference.cache
+C:\Users\Seb\Desktop\UANDES Extra\2020\Primer Semestre\POO\Entrega3\Proyecto-prueba\Proyecto-grupo-14form\obj\Debug\Proyecto_grupo_14form.Form1.resources
+C:\Users\Seb\Desktop\UANDES Extra\2020\Primer Semestre\POO\Entrega3\Proyecto-prueba\Proyecto-grupo-14form\obj\Debug\Proyecto_grupo_14form.ImportSong.resources
+C:\Users\Seb\Desktop\UANDES Extra\2020\Primer Semestre\POO\Entrega3\Proyecto-prueba\Proyecto-grupo-14form\obj\Debug\Proyecto_grupo_14form.Properties.Resources.resources
+C:\Users\Seb\Desktop\UANDES Extra\2020\Primer Semestre\POO\Entrega3\Proyecto-prueba\Proyecto-grupo-14form\obj\Debug\Proyecto-grupo-14form.csproj.GenerateResource.cache
+C:\Users\Seb\Desktop\UANDES Extra\2020\Primer Semestre\POO\Entrega3\Proyecto-prueba\Proyecto-grupo-14form\obj\Debug\Proyecto-grupo-14form.csproj.CoreCompileInputs.cache
+C:\Users\Seb\Desktop\UANDES Extra\2020\Primer Semestre\POO\Entrega3\Proyecto-prueba\Proyecto-grupo-14form\obj\Debug\Proyecto-grupo-14form.exe
+C:\Users\Seb\Desktop\UANDES Extra\2020\Primer Semestre\POO\Entrega3\Proyecto-prueba\Proyecto-grupo-14form\obj\Debug\Proyecto-grupo-14form.pdb
+C:\Users\Seb\Desktop\UANDES Extra\2020\Primer Semestre\POO\Entrega3\Proyecto-prueba\Proyecto-grupo-14form\bin\Debug\Interop.WMPLib.dll
+C:\Users\Seb\Desktop\UANDES Extra\2020\Primer Semestre\POO\Entrega3\Proyecto-prueba\Proyecto-grupo-14form\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Seb\Desktop\UANDES Extra\2020\Primer Semestre\POO\Entrega3\Proyecto-prueba\Proyecto-grupo-14form\obj\Debug\Interop.WMPLib.dll
+C:\Users\Seb\Desktop\UANDES Extra\2020\Primer Semestre\POO\Entrega3\Proyecto-prueba\Proyecto-grupo-14form\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Seb\Desktop\UANDES Extra\2020\Primer Semestre\POO\Entrega3\Proyecto-prueba\Proyecto-grupo-14form\obj\Debug\Proyecto-grupo-14form.csproj.ResolveComReference.cache
+C:\Users\Seb\Desktop\UANDES Extra\2020\Primer Semestre\POO\Entrega3\Proyecto-prueba\Proyecto-grupo-14form\obj\Debug\Proyecto_grupo_14form.MediaPlayer.resources
