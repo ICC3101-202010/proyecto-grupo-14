@@ -18,6 +18,7 @@ namespace Proyecto_grupo_14form
     {
         
         private ImportSong ImportSong;
+        private ImportMovie ImportMovie;
         private MediaPlayer MediaPlayer;
         private Playlists Playlists;
         private Library Library;
@@ -32,6 +33,7 @@ namespace Proyecto_grupo_14form
             Deserializesongs();
             
             ImportSong = new ImportSong();
+            ImportMovie = new ImportMovie();
             MediaPlayer = new MediaPlayer();
             Playlists = new Playlists();
             Library = new Library();
@@ -226,9 +228,7 @@ namespace Proyecto_grupo_14form
 
         private void button3_Click(object sender, EventArgs e)
         {
-            
-            //code..
-            
+            openChildform(ImportMovie);
             
 
             

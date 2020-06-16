@@ -52,6 +52,7 @@
             this.MainForm_MediaButton = new System.Windows.Forms.Button();
             this.panelLogo = new System.Windows.Forms.Panel();
             this.panelreproduccion = new System.Windows.Forms.Panel();
+            this.Numerocanciontext = new System.Windows.Forms.TextBox();
             this.Next_button = new System.Windows.Forms.Button();
             this.MainForm_SelectSongButton = new System.Windows.Forms.Button();
             this.trackBar1 = new System.Windows.Forms.TrackBar();
@@ -61,7 +62,7 @@
             this.Pause_button = new System.Windows.Forms.Button();
             this.MainForm_ChildFormPanel = new System.Windows.Forms.Panel();
             this.axWindowsMediaPlayer1 = new AxWMPLib.AxWindowsMediaPlayer();
-            this.Numerocanciontext = new System.Windows.Forms.TextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panelSideMenu.SuspendLayout();
             this.Searchpanel.SuspendLayout();
             this.panelprofile.SuspendLayout();
@@ -71,6 +72,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
             this.MainForm_ChildFormPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panelSideMenu
@@ -439,9 +441,17 @@
             this.panelreproduccion.TabIndex = 1;
             this.panelreproduccion.Paint += new System.Windows.Forms.PaintEventHandler(this.panelreproduccion_Paint);
             // 
+            // Numerocanciontext
+            // 
+            this.Numerocanciontext.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.Numerocanciontext.Location = new System.Drawing.Point(531, 13);
+            this.Numerocanciontext.Name = "Numerocanciontext";
+            this.Numerocanciontext.Size = new System.Drawing.Size(30, 23);
+            this.Numerocanciontext.TabIndex = 8;
+            // 
             // Next_button
             // 
-            this.Next_button.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.Next_button.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.Next_button.Location = new System.Drawing.Point(325, 11);
             this.Next_button.Name = "Next_button";
             this.Next_button.Size = new System.Drawing.Size(69, 25);
@@ -477,6 +487,7 @@
             // 
             // richTextBox1
             // 
+            this.richTextBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.richTextBox1.Location = new System.Drawing.Point(26, 11);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(293, 96);
@@ -519,6 +530,7 @@
             // MainForm_ChildFormPanel
             // 
             this.MainForm_ChildFormPanel.BackColor = System.Drawing.Color.RoyalBlue;
+            this.MainForm_ChildFormPanel.Controls.Add(this.pictureBox1);
             this.MainForm_ChildFormPanel.Controls.Add(this.axWindowsMediaPlayer1);
             this.MainForm_ChildFormPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.MainForm_ChildFormPanel.Location = new System.Drawing.Point(200, 0);
@@ -528,6 +540,7 @@
             // 
             // axWindowsMediaPlayer1
             // 
+            this.axWindowsMediaPlayer1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.axWindowsMediaPlayer1.Enabled = true;
             this.axWindowsMediaPlayer1.Location = new System.Drawing.Point(0, 0);
             this.axWindowsMediaPlayer1.Name = "axWindowsMediaPlayer1";
@@ -535,13 +548,16 @@
             this.axWindowsMediaPlayer1.Size = new System.Drawing.Size(808, 610);
             this.axWindowsMediaPlayer1.TabIndex = 0;
             // 
-            // Numerocanciontext
+            // pictureBox1
             // 
-            this.Numerocanciontext.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.Numerocanciontext.Location = new System.Drawing.Point(531, 13);
-            this.Numerocanciontext.Name = "Numerocanciontext";
-            this.Numerocanciontext.Size = new System.Drawing.Size(30, 23);
-            this.Numerocanciontext.TabIndex = 8;
+            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox1.BackColor = System.Drawing.Color.Black;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(141, 55);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(494, 514);
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
             // 
             // MainForm
             // 
@@ -569,6 +585,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
             this.MainForm_ChildFormPanel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -608,6 +625,7 @@
         private System.Windows.Forms.Button MainForm_SelectSongButton;
         private System.Windows.Forms.Button Next_button;
         private System.Windows.Forms.TextBox Numerocanciontext;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

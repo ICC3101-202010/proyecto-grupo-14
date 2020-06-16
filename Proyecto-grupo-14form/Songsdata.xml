@@ -6,4 +6,10 @@
     <album>The police mix</album>
     <Lyrics />
   </Song>
+  <Song>
+    <filename>Invincible Promise - Kingdom Hearts III.mp3</filename>
+    <artist>Yoko Shimomura</artist>
+    <album>Kingdom Hearts III</album>
+    <Lyrics />
+  </Song>
 </ArrayOfSong>
