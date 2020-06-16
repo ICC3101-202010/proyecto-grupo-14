@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfSong xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Song>
+    <filename>dj-y-alias-jy-cant-stand-beggin-madcon-vs-the-police-mashup.mp3</filename>
+    <artist>Dj alias</artist>
+    <album>The police mix</album>
+    <Lyrics />
+  </Song>
+</ArrayOfSong>
