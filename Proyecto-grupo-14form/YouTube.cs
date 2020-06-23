@@ -28,6 +28,12 @@ namespace Proyecto_grupo_14form
             str1 = str1.Replace("=", "/");
             str1 = str1.Replace("watch?", "");
             axShockwaveFlash1.Movie = str1.Trim();
+            axShockwaveFlash1.Play();
+        }
+
+        private void axShockwaveFlash1_Enter_1(object sender, EventArgs e)
+        {
+
         }
     }
 }

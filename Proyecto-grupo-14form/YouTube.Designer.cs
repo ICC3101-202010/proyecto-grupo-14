@@ -30,8 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(YouTube));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.YouTube_TextBox = new System.Windows.Forms.TextBox();
             this.Youtube_YoutubeButton = new System.Windows.Forms.Button();
+            this.YouTube_TextBox = new System.Windows.Forms.TextBox();
             this.axShockwaveFlash1 = new AxShockwaveFlashObjects.AxShockwaveFlash();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.axShockwaveFlash1)).BeginInit();
@@ -48,13 +48,6 @@
             this.panel1.Size = new System.Drawing.Size(668, 75);
             this.panel1.TabIndex = 0;
             // 
-            // YouTube_TextBox
-            // 
-            this.YouTube_TextBox.Location = new System.Drawing.Point(12, 27);
-            this.YouTube_TextBox.Name = "YouTube_TextBox";
-            this.YouTube_TextBox.Size = new System.Drawing.Size(527, 20);
-            this.YouTube_TextBox.TabIndex = 0;
-            // 
             // Youtube_YoutubeButton
             // 
             this.Youtube_YoutubeButton.Location = new System.Drawing.Point(565, 27);
@@ -65,6 +58,13 @@
             this.Youtube_YoutubeButton.UseVisualStyleBackColor = true;
             this.Youtube_YoutubeButton.Click += new System.EventHandler(this.Youtube_YoutubeButton_Click);
             // 
+            // YouTube_TextBox
+            // 
+            this.YouTube_TextBox.Location = new System.Drawing.Point(12, 27);
+            this.YouTube_TextBox.Name = "YouTube_TextBox";
+            this.YouTube_TextBox.Size = new System.Drawing.Size(527, 20);
+            this.YouTube_TextBox.TabIndex = 0;
+            // 
             // axShockwaveFlash1
             // 
             this.axShockwaveFlash1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -74,6 +74,7 @@
             this.axShockwaveFlash1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axShockwaveFlash1.OcxState")));
             this.axShockwaveFlash1.Size = new System.Drawing.Size(668, 328);
             this.axShockwaveFlash1.TabIndex = 1;
+            this.axShockwaveFlash1.Enter += new System.EventHandler(this.axShockwaveFlash1_Enter_1);
             // 
             // YouTube
             // 
