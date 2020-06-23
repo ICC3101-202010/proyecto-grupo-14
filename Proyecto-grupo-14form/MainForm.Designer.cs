@@ -61,8 +61,9 @@
             this.btnPlay1 = new System.Windows.Forms.Button();
             this.Pause_button = new System.Windows.Forms.Button();
             this.MainForm_ChildFormPanel = new System.Windows.Forms.Panel();
-            this.axWindowsMediaPlayer1 = new AxWMPLib.AxWindowsMediaPlayer();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.axWindowsMediaPlayer1 = new AxWMPLib.AxWindowsMediaPlayer();
+            this.Youtubebtn = new System.Windows.Forms.Button();
             this.panelSideMenu.SuspendLayout();
             this.Searchpanel.SuspendLayout();
             this.panelprofile.SuspendLayout();
@@ -71,8 +72,8 @@
             this.panelreproduccion.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
             this.MainForm_ChildFormPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).BeginInit();
             this.SuspendLayout();
             // 
             // panelSideMenu
@@ -97,6 +98,7 @@
             // Searchpanel
             // 
             this.Searchpanel.BackColor = System.Drawing.Color.Black;
+            this.Searchpanel.Controls.Add(this.Youtubebtn);
             this.Searchpanel.Controls.Add(this.Search_Playlist_button);
             this.Searchpanel.Controls.Add(this.Search_Movie_button);
             this.Searchpanel.Controls.Add(this.Serach_Song_button);
@@ -118,7 +120,7 @@
             this.Search_Playlist_button.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
             this.Search_Playlist_button.Size = new System.Drawing.Size(183, 40);
             this.Search_Playlist_button.TabIndex = 2;
-            this.Search_Playlist_button.Text = "Playslit";
+            this.Search_Playlist_button.Text = "Playlist";
             this.Search_Playlist_button.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.Search_Playlist_button.UseVisualStyleBackColor = false;
             this.Search_Playlist_button.Click += new System.EventHandler(this.Search_Playlist_button_Click);
@@ -538,16 +540,6 @@
             this.MainForm_ChildFormPanel.Size = new System.Drawing.Size(808, 610);
             this.MainForm_ChildFormPanel.TabIndex = 2;
             // 
-            // axWindowsMediaPlayer1
-            // 
-            this.axWindowsMediaPlayer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.axWindowsMediaPlayer1.Enabled = true;
-            this.axWindowsMediaPlayer1.Location = new System.Drawing.Point(0, 0);
-            this.axWindowsMediaPlayer1.Name = "axWindowsMediaPlayer1";
-            this.axWindowsMediaPlayer1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axWindowsMediaPlayer1.OcxState")));
-            this.axWindowsMediaPlayer1.Size = new System.Drawing.Size(808, 610);
-            this.axWindowsMediaPlayer1.TabIndex = 0;
-            // 
             // pictureBox1
             // 
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -558,6 +550,28 @@
             this.pictureBox1.Size = new System.Drawing.Size(494, 514);
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
+            // 
+            // axWindowsMediaPlayer1
+            // 
+            this.axWindowsMediaPlayer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.axWindowsMediaPlayer1.Enabled = true;
+            this.axWindowsMediaPlayer1.Location = new System.Drawing.Point(0, 0);
+            this.axWindowsMediaPlayer1.Name = "axWindowsMediaPlayer1";
+            this.axWindowsMediaPlayer1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axWindowsMediaPlayer1.OcxState")));
+            this.axWindowsMediaPlayer1.Size = new System.Drawing.Size(808, 610);
+            this.axWindowsMediaPlayer1.TabIndex = 0;
+            this.axWindowsMediaPlayer1.Enter += new System.EventHandler(this.axWindowsMediaPlayer1_Enter);
+            // 
+            // Youtubebtn
+            // 
+            this.Youtubebtn.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Youtubebtn.Location = new System.Drawing.Point(0, 120);
+            this.Youtubebtn.Name = "Youtubebtn";
+            this.Youtubebtn.Size = new System.Drawing.Size(183, 72);
+            this.Youtubebtn.TabIndex = 3;
+            this.Youtubebtn.Text = "Youtube";
+            this.Youtubebtn.UseVisualStyleBackColor = true;
+            this.Youtubebtn.Click += new System.EventHandler(this.Youtubebtn_Click);
             // 
             // MainForm
             // 
@@ -584,8 +598,8 @@
             this.panelreproduccion.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
             this.MainForm_ChildFormPanel.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -626,6 +640,7 @@
         private System.Windows.Forms.Button Next_button;
         private System.Windows.Forms.TextBox Numerocanciontext;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button Youtubebtn;
     }
 }
 

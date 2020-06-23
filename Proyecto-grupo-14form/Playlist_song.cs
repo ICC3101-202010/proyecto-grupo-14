@@ -8,10 +8,20 @@ namespace Proyecto_grupo_14form
 {
     public class Playlist_song : Playlist
     {
-        List<Song> Songs = new List<Song>();
-        public Playlist_song(string name, bool @private, int duration, List<Song> songs) : base(name, @private, duration)
+        public List<Song> Songs = new List<Song>();
+        public string Name { get; set; }
+        public bool @Private { get; set; }
+        public int Duration { get; set; }
+        
+        public Playlist_song(int UserId, string name, bool @private, int duration, List<Song> songs) : base(UserId, name, @private, duration)
         {
-            Songs = songs; 
+            Songs = songs;
+            Name = name;
+            @Private = @private;
+            Duration = duration;
+            
         }
+
+        
     }
 }

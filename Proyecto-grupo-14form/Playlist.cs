@@ -8,18 +8,21 @@ namespace Proyecto_grupo_14form
 {
     public class Playlist
     {
-        private string name { get; set; }
+        private int UserId { get; set; }
+        private string Name { get; set; }
         private bool Private { get; set; }
         private int Duration { get; set; }
 
-        public Playlist(string name, bool @private, int duration)
+        public Playlist(int UserId,string name, bool @private, int duration)
         {
-            this.name = name;
+            this.UserId = UserId;
+            this.Name = name;
             Private = @private;
             Duration = duration;
 
 
         }
+        public Playlist() { }
 
         public void Add()
         {

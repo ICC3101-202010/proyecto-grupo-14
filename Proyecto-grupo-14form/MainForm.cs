@@ -20,7 +20,9 @@ namespace Proyecto_grupo_14form
         private ImportSong ImportSong;
         private ImportMovie ImportMovie;
         private MediaPlayer MediaPlayer;
+        private YouTube YouTube;
         private Playlists Playlists;
+        private Create_Playlist Create;
         private Library Library;
         public static List<Movie> Moviesdata = new List<Movie>();
         public static List<Song> Songsdata = new List<Song>();
@@ -35,8 +37,12 @@ namespace Proyecto_grupo_14form
             ImportSong = new ImportSong();
             ImportMovie = new ImportMovie();
             MediaPlayer = new MediaPlayer();
-            Playlists = new Playlists();
+            Create = new Create_Playlist();
+            Playlists = new Playlists(Create);
             Library = new Library();
+            YouTube = new YouTube();
+            
+            
 
             ListBox mylist = new ListBox();
             
@@ -256,7 +262,7 @@ namespace Proyecto_grupo_14form
         private void button5_Click(object sender, EventArgs e)
         {
             //Create playlist
-
+            openChildform(Create);
             hidesubmenu();       
         }
 
@@ -394,6 +400,16 @@ namespace Proyecto_grupo_14form
         private void panelreproduccion_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void axWindowsMediaPlayer1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Youtubebtn_Click(object sender, EventArgs e)
+        {
+            openChildform(YouTube);
         }
     }
 }
